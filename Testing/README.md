@@ -22,3 +22,7 @@ Testing framework for python
 
 
 `pytest tests/test_my_functions.py`
+
+<hr>
+
+**Create `conftest.py` to configure global fixtures.**
