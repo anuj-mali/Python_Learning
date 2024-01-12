@@ -20,3 +20,5 @@ Testing framework for python
 * supports parameterized and fixture-based testing
   > easily run test with multiple arguments
 
+
+`pytest tests/test_my_functions.py`
