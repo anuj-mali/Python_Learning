@@ -29,3 +29,12 @@ Testing framework for python
 
 ### Marks
 > Allows to add meta data to the tests using decorators like `@pytest.mark.slow`. Eg. slow, xfail, skip
+
+### Parameterize
+> Using decorator `@pytest.mark.parameterize`, we can set parameters to tests for testing multiple values.
+Eg:
+```
+@pytest.mark.parametrize("length, expected_perimeter", [(2, 8), (4, 16), (5, 20)])
+def test_multiple_square_perimeters(length, expected_perimeter):
+    assert shapes.Square(length).perimeter() == expected_perimeter
+```
