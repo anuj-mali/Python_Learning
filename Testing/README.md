@@ -26,3 +26,6 @@ Testing framework for python
 <hr>
 
 **Create `conftest.py` to configure global fixtures.**
+
+### Marks
+> Allows to add meta data to the tests using decorators like `@pytest.mark.slow`. Eg. slow, xfail, skip
