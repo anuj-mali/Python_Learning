@@ -19,7 +19,7 @@ class TestSum(unittest.TestCase):
         """
         data = [Fraction(1,4), Fraction(1,4), Fraction(2,5)]
         result = sum(data)
-        self.assertEqual(result, 1)
+        self.assertEqual(result, Fraction(9,10))
 
     def test_bad_type(self):
         """

@@ -38,3 +38,6 @@ Eg:
 def test_multiple_square_perimeters(length, expected_perimeter):
     assert shapes.Square(length).perimeter() == expected_perimeter
 ```
+
+### Mocks
+> using `unittest.mock`, fake some behaviour of external dependencies
